@@ -1,0 +1,41 @@
+node_modules/
+Notes.md
+Pending.md
+.idea
+info-logger.log
+error-logger.log
+temp/*
+
+.DS_Store
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
+
+package-lock.json
+```
+I have tried to add the following to my .gitignore file:
+```
+node_modules/
+dist/
+dist/**/*
+Notes.md
+Pending.md
+.idea
+info-logger.log
+error-logger.log
+temp/*
+
+.DS_Store
+# Editors
+.idea
+*.iml
